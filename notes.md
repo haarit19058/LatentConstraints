@@ -153,3 +153,41 @@ Also we attach the one hot encoding at the end of the z's while training the GAN
 
 
 In paper they have trained a GAN on the z of VAE what if we train another VAE on teh z of VAE ??
+
+
+
+
+
+
+
+
+
+
+
+# SRIP notes \(Notes that i made during the srip period\)
+
+# BERT
+stand for bidirectional encoder representations from transformers. Key fetures:
+- Bidirectional: unlike gpt it looks both at left and right context simultaneously during training. It allows the model to understand the meaning of words in context.
+
+- Transformer based architectuer
+
+- Pretrained and finetuning
+
+Refer to the Open AI's distill artivle for an extensive exposition and discussion of the visual concepts learned by CLIP
+
+
+z space :   input latent space(random noise)
+W space :   mapped latent space (same across all the layres.) More disentangled.
+W+ space:   fine grained control layer-wise control.
+
+
+
+
+
+
+
+
+
+
+
